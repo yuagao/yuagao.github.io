@@ -1,4 +1,27 @@
-My Home Page
+<div class="background"> 
+  <div class="text"> Welcome Zingzing &#128526; &#128526; 欢迎薛晶晶 	</div>
+</div>
+
+<style>
+  .text{
+    font-family: Arial;
+    font-size: 250px;
+    color: white;
+    animation: moving 10s infinite;
+    animation-timing-function: linear;
+  }
+
+  .background{
+    width: 4500px;
+    height: 500px;
+    background: #111;
+  }
+
+  @keyframes moving {
+    from {transform: translateX(2000px);}
+    to {transform: translateX(-4000px);}
+  }
+</style>
 
 <script>
   console.log('sssss')
